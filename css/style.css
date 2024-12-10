@@ -135,7 +135,7 @@ footer {
 
 .top_eye_catch {
   height: 500px;
-  background-image: url(../images/top.jpg);
+  background-image: url(../images/IMG_5275.jpeg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -248,3 +248,41 @@ report
 .mb_m {
   margin-bottom: 20px;
 }
+
+#case1{
+  border-left: 1px solid #000;
+  margin-left: 30px;
+  }
+  
+ #case1 li{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+ }
+  
+ #case1 li .year{
+  width: 80px;
+  display: flex;
+  align-items: center;
+ }
+  
+ #case1 li .year::before{
+  content: '';
+  display: block;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #ff9a02;
+  left: -7px;
+  margin-right: 5px;
+ }
+  
+ #case1 li .date{
+  width: 60px;
+ }
+  
+ #case1 li .content{
+  flex: 1;
+ }
+ 
